@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/EnhancedContentProvider"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="10"
+        android:hint="@string/url"
+        android:text="http://www.google.com" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1"
+        android:layout_toLeftOf="@+id/button1"
+        android:contentDescription="@+id/imageView1"
+        android:src="@drawable/drschmidt" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentLeft="true"
+        android:text="@string/Enter_URL" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1"
+        android:layout_toLeftOf="@+id/button3" >
+
+    </ListView>
+
+    <Button
+        android:id="@+id/button3"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:maxWidth="100dip"
+        android:minHeight="50dip"
+        android:minWidth="80dip"
+        android:onClick="@string/syncQuery"
+        android:text="@string/connsync" />
+
+    <Button
+        android:id="@+id/button1"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button6"
+        android:maxWidth="100dip"
+        android:minHeight="50dip"
+        android:minWidth="80dip"
+        android:onClick="@string/download"
+        android:text="@string/async" />
+
+    <Button
+        android:id="@+id/Button2"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_alignParentRight="true"
+        android:maxWidth="100dip"
+        android:minHeight="50dip"
+        android:minWidth="80dip"
+        android:onClick="@string/resetButton"
+        android:text="@string/reset" />
+
+    <Button
+        android:id="@+id/button6"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/editText1"
+        android:maxWidth="100dip"
+        android:minHeight="30dip"
+        android:minWidth="80dip"
+        android:onClick="@string/clearAllImages"
+        android:text="@string/clear_AllImages" />
+
+    <Button
+        android:id="@+id/button5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button2"
+        android:layout_alignParentRight="true"
+        android:lines="@integer/line"
+        android:maxWidth="100dip"
+        android:minHeight="50dip"
+        android:minWidth="80dip"
+        android:onClick="@string/runAsyncQuery"
+        android:text="@string/asyncHandler" />
+
+    <Button
+        android:id="@+id/Button4"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/button1"
+        android:maxWidth="100dip"
+        android:minHeight="60dip"
+        android:minWidth="80dip"
+        android:onClick="@string/runCursor"
+        android:text="@string/cursor" />
+    
+</RelativeLayout>

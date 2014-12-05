@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">ContentProvider</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_download">DownloadActivity</string>
+    <string name="Enter_URL">Enter URL:</string>
+    <string name="url">http://www.dre.vanderbilt.edu/~schmidt/ka.png</string>
+    <string name="query">Query via query()</string>
+    <string name="cursor">Query via Cursor Loader</string>
+    <string name="asyncHandler">Query via AsyncQuery Handler</string>
+    <string name="async">Download Image</string>
+    <string name="reset">Reset Image</string>
+    <string name="download">runAsyncTask</string>
+    <string name="runQuery">QueryviaQuery</string>
+    <string name="runCursor">QueryviaCursorLoader</string>
+    <string name="runAsyncQuery">QueryviaAsyncQueryHandler</string>
+    <string name="resetButton">resetImage</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Thread Download</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_threaded_download">ThreadedDownloadActivity</string>
+    <string name="Enter_URL">Enter URL:</string>
+    <string name="url">http://www.dre.vanderbilt.edu/~schmidt/ka.png</string>
+    <string name="sync">Run Sync AIDL</string>
+    <string name="async">Run Async AIDL</string>
+    <string name="reset">Reset Image</string>
+    <string name="runSyncTask">runSyncTask</string>
+    <string name="runAsyncTask">runAsyncTask</string>
+    <string name="resetButton">resetImage</string>
+
+</resources>

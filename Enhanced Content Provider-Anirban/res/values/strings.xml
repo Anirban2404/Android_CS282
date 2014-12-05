@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">Enhanced_Content_Provider</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_download">Enhanced_Content_Provider</string>
+    <string name="Enter_URL">Enter URL:</string>
+    <string name="url">http://www.dre.vanderbilt.edu/~schmidt/ka.png</string>
+    <string name="connsync">Setup Sync Connection</string>
+    <string name="cursor">Query via Cursor Loader</string>
+    <string name="asyncHandler">Delete via AsyncQuery Handler</string>
+    <string name="async">Download Image</string>
+    <string name="reset">Reset Image</string>
+    <string name="download">runAsyncTask</string>
+    <string name="syncQuery">syncConnection</string>
+    <string name="runCursor">QueryviaCursorLoader</string>
+    <string name="runAsyncQuery">deleteviaAsyncQueryHandler</string>
+    <string name="resetButton">resetImage</string>
+    <string name="ACCOUNT_TYPE">com.anirban.enhanced_content_provider.account</string>
+    <string name="CONTENT_AUTHORITY">com.anirban.enhanced_content_provider.account</string>
+    <string name="clearAllImages">clearAllImages</string>
+    <string name="clear_AllImages">clear AllImages</string>
+
+</resources>
