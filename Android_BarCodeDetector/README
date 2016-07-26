@@ -1,0 +1,5 @@
+A basic implementation of barcode detection using computer vision and image processing techniques. 
+
+- The Android code will capture image using phone camera, and upload it to the PHP server.
+- The PHP server contains the python & OpenCV code to detect barcodes in images.
+- The processed image will be downloaded to the phone.
