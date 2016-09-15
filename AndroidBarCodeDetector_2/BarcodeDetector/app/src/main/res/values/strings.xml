@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Barcode Detector</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnTakePicture">Capture Image</string>
+    <string name="btnRecordVideo">Record Video</string>
+    <string name="or">(or)</string>
+    <string name="btnUploadToServer">Upload to Server</string>
+    <string name="title_activity_upload">UploadActivity</string>
+    <string name="title_activity_download">DownloadActivity</string>
+    <string name="title_activity_final">FinalActivity</string>
+    <string name="processed_image">Processed Image</string>
+</resources>
